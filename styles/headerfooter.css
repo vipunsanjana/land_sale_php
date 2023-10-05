@@ -1,0 +1,44 @@
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+
+    /* from here the main content and paragrahp for p*/
+
+    .mainpage p {
+        border-radius: 5px;
+        background-color: white;
+        width: fit-content;
+        margin: 10px;
+        padding: 20px;
+    }
+    
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+
+    /* from here the footer area */
+
+    .topic {
+        font-size:larger;
+        font-weight: 600;
+    }
+    .topic:hover {
+        color: rgb(125, 253, 123);
+    }
+
+    .contact{
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+        width: auto;
+        padding: 10px;
+        background-color:rgba(221, 115, 28, 0.5);
+        border-radius: 10px;
+    }
+    
+    .about{
+        position: absolute;
+        bottom: 10px;
+        left: 300px;
+        padding: 10px;
+        background-color: rgb(247, 189, 119,0.5);
+        border-radius: 10px;
+    }
+    
+    

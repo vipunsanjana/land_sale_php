@@ -1,0 +1,170 @@
+/*Owned Posts*/
+
+body{
+  background:linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.ownTitle{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  text-decoration: underline;
+}
+
+#ownedCard{
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-sizing:border-box;
+  padding:10px;
+  margin:80px;
+  background-color: #fff;
+
+
+}
+
+
+#ownedImg{
+  float:left;
+  padding: 20px;
+  object-fit: cover;
+}
+
+
+#ownedCard h2{
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
+#ownedPrice{
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25;
+  color:red;
+  float: right;
+  background-color: rgb(255, 255, 0);
+}
+
+#ownedPrice::before{
+  content:'Rs.';
+  color:#3363ff;
+}
+
+.ownBtn{
+  background-color: #47bcd4;
+  border-radius: 50px;
+  overflow: hidden;
+  border-style: hidden;
+  background-color: #e6ecff;
+  margin: 5px;
+}
+
+.ownBtn a{
+  text-decoration: none;
+  color:#3363ff;
+  text-align: center;
+  background-color: #e6ecff;
+  font-size: 20px;  
+}
+
+.ownBtn a:hover{
+  background-color:rgb(247, 247, 10);
+}
+
+
+/*Request Form*/
+
+.form{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background:linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+
+.RequestForm{
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  padding: 25px 30px;
+  background-color: #fff;
+  max-width: 700px;
+  width: 100%;
+
+  /*background: linear-gradient(135deg, #71b7e6, #9b59b6);*/
+
+}
+
+.Title{
+  font-weight:Bold;
+  font-size:25px;
+  font-family:Arial, Helvetica, sans-serif;
+  padding-bottom:25px;
+
+
+}
+
+label {
+  display:block;
+}
+
+input[type=text],textarea,input[type=file],input[type=password]{
+  padding:10px;
+  margin:10px 0;
+  border-radius: 10px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  width:100%;
+  
+}
+input:focus {
+  background-color: #ffd969;
+  border-color: #000;
+  
+}
+
+textarea:focus {
+  background-color: #ffd969;
+  border-color: #000;
+  
+}
+b
+select:focus {
+  background-color: #ffd969;
+  border-color: #000;
+  
+}
+
+input:hover {
+  background-color: #fafafa;
+  box-shadow:0 0 4px rgba(0,0,0,0.5);
+}
+
+select:hover {
+  background-color: #fafafa;
+  box-shadow:0 0 4px rgba(0,0,0,0.5);
+}
+
+textarea:hover {
+  background-color: #fafafa;
+  box-shadow:0 0 4px rgba(0,0,0,0.5);
+}
+
+select {
+  width: 100%;
+  padding:10px;
+  border-radius:10px;
+}
+
+.formBtn{
+  background-color: #263238;
+  border:none;
+  color:#fff;
+  padding:8px 16px;
+  font-size: 18px;
+  letter-spacing: 3px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.formBtn:hover{
+  background-color: #FF725E;
+}

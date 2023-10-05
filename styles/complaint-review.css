@@ -1,0 +1,95 @@
+
+
+.reviewContainer
+{
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    height: max-content;
+    color: rgb(36, 33, 33);
+    background: rgb(198, 160, 123);
+    padding:30px 0px;
+    font-family:sans-serif;
+}
+
+.cInfo
+{
+    background:#4f49c9;
+    border:0;
+    color:#fff;
+    padding:10px;
+    font-size:20px;
+    width:330px;
+    margin:20px auto;
+    display:block;
+}
+
+.complaint
+{
+    background:#bacfe1;
+    border:0;
+    color:rgb(61, 56, 56);
+    padding:10px;
+    font-size:20px;
+    width:330px;
+    margin:20px auto;
+    display:block;
+}
+
+.complaint2
+{
+    background:#d55454;
+    border:0;
+    color:#fff;
+    padding:10px;
+    font-size:20px;
+    width:330px;
+    margin:20px auto;
+    display:block;
+}
+
+.desc
+{
+    background:#d55454;
+    border: 3px;
+    border-color: aquamarine;
+    color:#fff;
+    padding:10px;
+    font-size:20px;
+    width:330px;
+    margin:20px auto;
+    display:block;
+}
+
+.maction
+{
+    background:#d55454;
+    border: 10px;
+    border-radius: 25px;
+    color:#fff;
+    padding:10px;
+    font-size:20px;
+    width:330px;
+    margin:20px auto;
+    display:block;
+}
+
+.sbbtn
+{
+    background:#1c9037;
+    border: 10px;
+    border-radius: 15px;
+    color:#fff;
+    padding:10px;
+    font-size:20px;
+    width:330px;
+    margin:20px auto;
+    display:block;
+}
+
+#saction
+{
+    text-decoration: underline;
+}

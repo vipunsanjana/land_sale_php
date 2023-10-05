@@ -1,0 +1,108 @@
+
+.blur
+{
+    filter: blur(25px);
+}
+
+
+/* profile image */
+.avatar{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.profile{
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+
+}
+
+/* buttons */
+.btn-simple{
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+/* complaint form */
+.popup-container{
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    max-width: 500px;
+    height: 300px;
+    width: 75%;
+    display: none;
+    border-radius: 10px;
+
+}
+
+.simple-form{
+    display: grid;
+    grid-template-columns: 20% auto;
+    gap: 10px;
+    padding: 10px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.popup-container > h2{
+    padding-left: 10px;
+}
+
+.btn-report{
+    padding:10px 15px;
+    margin: 20px;
+    float: right;    
+}
+
+
+/* image slide show */
+.slide-show{
+    width:fit-content;
+    min-width: 80%;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.image{
+    width:100%;
+}
+
+.btn-image{
+    position: absolute;
+    top: 50%;
+    transform:translate(0, -50%);
+    height: 15%;
+}
+
+.btn-right{
+    right:0%;
+}
+
+.btn-left{
+    left:0%;
+}
+
+#report-success {
+    grid-template-columns: auto;
+}
+
+#report-success h2, #report-success h3{
+    justify-self: center ;
+}
+
+#report-success input{
+    justify-self: right ;
+    align-self: end;
+}

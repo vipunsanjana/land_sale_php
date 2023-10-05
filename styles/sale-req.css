@@ -1,0 +1,77 @@
+form{
+    
+    width: 750px;
+    margin:auto;
+  }
+
+.saleForm{
+
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    padding: 25px 30px;
+    background-color: #fff;
+    max-width: 800px;
+    width: 100%;
+  
+    
+  
+  }
+
+  .Title{
+    font-weight:Bold;
+    font-size:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom:25px;
+  
+  
+  }
+  
+  label {
+    display:block;
+  }
+  
+  input[type=text],textarea{
+    padding:10px;
+    margin:10px 0;
+    border-radius: 10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    width:90%;
+    
+  }
+  input:focus {
+    background-color: #ffd969;
+    border-color: #000;
+    
+  }
+  
+  textarea:focus {
+    background-color: #ffd969;
+    border-color: #000;
+    
+  }
+  b
+  select:focus {
+    background-color: #ffd969;
+    border-color: #000;
+    
+  }
+  
+  input:hover {
+    background-color: #fafafa;
+    box-shadow:0 0 4px rgba(0,0,0,0.5);
+  }
+  
+  select:hover {
+    background-color: #fafafa;
+    box-shadow:0 0 4px rgba(0,0,0,0.5);
+  }
+  
+  textarea:hover {
+    background-color: #fafafa;
+    box-shadow:0 0 4px rgba(0,0,0,0.5);
+  }
+  
+  select {
+    width: 100%;
+    padding:10px;
+    border-radius:10px;
+  }

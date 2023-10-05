@@ -1,0 +1,117 @@
+
+.info-field{
+    grid-template-columns: minmax(125px, 15%) auto;
+}    
+
+div.phone{
+    display: grid;
+    grid-template-columns: auto 60px;
+}
+
+
+.btn-image{
+    height: 30px;
+    width: 30px;
+
+    align-self: center;
+    justify-self: center;
+
+    background-color: none;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    border: solid black 1px;
+}
+
+.edit-background{
+    background-image: url("../images/icons/edit-icon.png");
+}
+
+.delete-background{
+    background-image: url("../images/icons/delete-icon.png");
+}
+
+.reset-background{
+    background-image: url("../images/icons/reset-icon.png");
+}
+
+.plus-background{
+    background-image: url("../images/icons/plus-icon.png");
+}
+
+.btn-image:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}    
+
+.profile-container{
+    padding: 20px;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 3px;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+}
+
+.h-with-button{
+    display: grid;
+    grid-template-columns:auto min-content;
+}
+
+.profile-img{
+    max-width: 200px;
+}
+
+#remove-pic{
+    grid-row-start: 3;
+}
+
+.account-form{
+    
+}
+
+.account-form .form-field{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5px;
+}
+
+.account-form .form-field > input, .account-form .form-field > textarea{
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid grey;
+    padding: 15px;
+    margin: 5px;
+    background-color: transparent;
+}
+
+.account-form .form-field > textarea{
+    height: 10em;
+    border-left: 5px solid lightgrey;
+}
+
+.error{
+    color: #e13535;
+    padding-left: 5px; 
+}
+
+.account-form .form-field > input:focus , .account-form .form-field > textarea:focus{
+    border-bottom: 2px solid #1a1a1a;
+}
+
+.h-with-button input{
+    margin: 10px;
+}
+
+div.warnings{
+    background-color: #ffc3c3;
+}
+
+a.delete{
+    background-color: #ffc3c3 !important;
+}
+
+.delete:hover{
+    background-image: linear-gradient(to right, #fca4a4, #ffc3c3) !important;
+}

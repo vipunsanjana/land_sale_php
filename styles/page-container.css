@@ -1,0 +1,91 @@
+
+.hide
+{
+    display: none !important;
+}
+
+/*structure*/
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 40px;
+    padding: 20px 5%;
+
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
+.container > div{
+    box-shadow: 5px 5px 10px #b2b2b2;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.container p{
+    padding-left: 10px;
+}
+
+.container h3{
+    padding-left: 10px;
+}
+
+div.title{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+div.btn-container-ralign{
+    background-color: transparent;
+    box-shadow: none;
+    justify-self: right;
+    overflow: visible;
+}
+
+div.images{
+    min-height: 0px;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.field-container{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.info-field{
+    display: grid;
+    grid-template-columns: minmax(125px, 15%) auto;
+}
+
+.info-field > p:first-of-type:after{
+    content: " :";
+}
+
+.field-container > div:nth-child(odd), .field-container > a:nth-child(odd){
+    background-color: #e7e7e7;
+}
+
+
+.field-container  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+    
+}
+
+.container > div > a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.field-container  a:hover {
+    background-image: linear-gradient(to right, #a1a1a1, white);
+    color: white;
+}
+
+.container > div > a:hover, .container > div > a:hover > *{
+    background-image: linear-gradient(to right, #a1a1a1, white);
+    color: white;
+}

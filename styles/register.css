@@ -1,0 +1,67 @@
+
+form
+{
+    text-align: center;
+}
+
+.icontainer
+{
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    height: max-content;
+    color: rgb(36, 33, 33);
+    background: rgb(198, 160, 123);
+    padding:30px 0px;
+    font-family:sans-serif;
+
+}
+
+#cheader
+{
+    text-align:center;
+    margin:30px 0;
+    font-size:30px;
+    font-family:sans-serif;
+}
+
+#signin
+{
+    text-decoration: none;
+}
+
+.label
+{
+    display:block;
+    width:300px;
+    margin:20px auto;
+    padding:15px;
+    background:rgba(1, 1, 1, 0.2);
+    color:#fff;
+    border:0;
+}
+.inputBox
+{
+    display:block;
+    width:300px;
+    margin:20px auto;
+    padding:15px;
+    background:rgba(0,0,0,0.2);
+    color:#fff;
+    border:0;
+}
+
+#submitbtn
+{
+    background:#a11313;
+    border:0;
+    color:#fff;
+    padding:10px;
+    font-size:20px;
+    width:330px;
+    margin:20px auto;
+    display:block;
+    cursor:pointer;
+}

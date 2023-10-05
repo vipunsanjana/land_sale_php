@@ -1,0 +1,15 @@
+.delete-form{
+    max-width: 500px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center ;
+    padding: 50px;
+}
+
+.btns input{
+    padding: 10px 20px ;
+    margin: 10px;
+}
