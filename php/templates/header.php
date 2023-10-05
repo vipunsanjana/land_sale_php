@@ -2,7 +2,7 @@
 <header>
         <div class="nav">
                 <div class="logo">
-                        <img src="images/headerfooter/logo.png" alt="" height="75px">
+                        <img src="images/headerfooter/logos.jpg" alt="" height="75px">
                         <!-- <p style="height:75px">ABC lands</p>  -->
                 </div>
                 <div class="links">
